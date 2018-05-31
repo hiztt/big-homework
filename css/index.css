@@ -192,7 +192,28 @@ input,button{
 	margin:0 auto;
 	background: url(../img/首页/banner/第一张大图.png) no-repeat center center;
 }
+.bannerspace{
+	width: 1560px;
+	height: 429px;
+	margin: 0 auto;
+}
+.changepicture{
+	width: 128px;
+	height: 20px;
+	margin: 0 auto;
+}
+.changepicture li{
+	float: left;
 
+}
+.changepicture1{
+	margin-left: 21px;
+	margin-right: 14px;
+}
+.changepicture2{
+	margin-left: 14px;
+	margin-right: 14px;
+}
      /* 首部和banner结束*/
 
 
