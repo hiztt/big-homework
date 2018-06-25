@@ -1372,6 +1372,280 @@ input,button{
 	font-size: 18px;
 	color: #e0e0e0;
 }
+
+
+
+
+
+
+
+
+
+
+.zhongxin1{
+	width: 100%;
+	height: 1490px;
+	margin: 0 auto;
+}
+.zhongxin2{
+	width: 1200px;
+	height: 55px;
+	margin: 0 auto;
+	padding-top: 26px;
+	font-size: 14px;
+	background-color: #fbfbfb
+}
+.zhongxin3{
+	width: 1200px;
+	height: 1410px;
+	margin: 0 auto;
+}
+.zhongxin4{
+	width: 200px;
+	height: 40px;
+	float: left; 
+	font-size: 14px;
+
+}
+.zhongxin5{
+	width: 200px;
+	height: 300px;
+	margin-left: 20px;
+}
+.zhongxin5 ul{
+	float: left;
+	font-size: 14px;
+}
+.zhongxin6{
+	width: 200px;
+	height: 40px;
+	float: left;
+	font-size: 14px;
+	margin-top: 15px;
+}
+.zhongxin7{
+	width: 200px;
+	height: 280px;
+	margin-left: 20px;
+}
+.zhongxin7 ul{
+	float: left;
+	font-size: 14px;
+}
+.left{
+	width: 200px;
+	height: 1410px;
+	float: left;
+}
+.right{
+	width: 1000px;
+	height: 1410px;
+	float: left;
+
+}
+.zhongxin8{
+	width: 1000px;
+	height: 60px;
+	margin: 0 auto;
+	padding-left: 1px;
+	padding-top: 40px;
+	font-size: 14px;
+}
+.zhongxin9{
+	width: 1000px;
+	height: 280px;
+	margin: 0 auto;
+}
+.zhongxin10{
+	width: 230px;
+	height: 35px;
+	float: left;
+	text-align: center;
+	border:solid;
+	border-width: 1px;
+	border-color: white;
+	background-color: #fff0f1;
+	font-size: 14px;
+	padding-top: 10px;
+}
+.zhongxin11{
+	width: 590px;
+	height: 35px;
+	float: left;
+	border:solid;
+	border-width: 1px;
+	border-color: white;
+	background-color: #fff0f1;
+	font-size: 14px;
+	padding-top: 10px;
+	padding-left: 60px;
+}
+.zhongxin12{
+	width: 1000px;
+	height: 60px;
+	margin: 0 auto;
+	padding-left: 1px;
+	font-size: 14px;
+}
+.zhongxin13{
+	width: 1000px;
+	height: 180px;
+	margin: 0 auto;
+
+}
+.zhongxin14{
+	width: 250px;
+	height: 30px;
+	float: left;
+	border: solid;
+	border-width: 1px;
+	border-color: white;
+	background-color: #f5f5f5;
+	font-size: 14px;
+	padding-top: 10px;
+	text-align: center;
+}
+.zhongxin15{
+	width: 155px;
+	height: 30px;
+	float: left;
+	border:solid;
+	border-width: 1px;
+	border-color: white;
+	background-color: #f5f5f5;
+	padding-top: 10px;
+	text-align: center;
+}
+.zhongxin16{
+	width: 250px;
+	height: 30px;
+	float: left;
+	font-size: 14px;
+	padding-top: 40px;
+	text-align: center;
+}
+.zhongxin17{
+	width: 155px;
+	height: 30px;
+	float: left;
+	font-size: 14px;
+	padding-top: 40px;
+	text-align: center;	
+}
+.zhongxin18{
+	width: 1000px;
+	height: 70px;
+	margin: 0 auto;
+	font-size: 14px;
+}
+.zhongxin19{
+	width: 1000px;
+	height: 170px;
+	margin: 0 auto;
+
+}
+.zhongxin20{
+	width: 1000px;
+	height: 70px;
+	margin: 0 auto;
+	font-size: 14px;
+	padding-top: 40px;
+
+}
+.zhongxin21{
+	width: 1000px;
+	height: 150px;
+	margin: 0 auto;
+}
+.zhongxin22{
+	width: 200px;
+	height: 30px;
+	float: left;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 14px;
+	background-color:#fff0f1;
+	border-width:1px;
+	border: solid;
+	border-color: white;
+
+}
+.zhongxin23{
+	width: 1000px;
+	height: 70px;
+	margin: 0 auto;
+	font-size: 14px;
+}
+.zhongxin24{
+	width: 1000px;
+height: 80px;
+	margin: 0 auto;
+
+}
+.zhongxin25{
+	width: 820px;
+	height: 35px;
+	margin: 0 auto;
+	background-color: #f5f5f5;
+	font-size: 14px;
+	padding-top: 5px;
+
+}
+.zhongxin26{
+	width: 1000px;
+	height: 70px;
+	margin: 0 auto;
+	font-size: 14px;
+}
+.zhongxin27{
+	width: 1000px;
+	height: 80px;
+}
+.zhongxin28{
+	width: 820px;
+	height: 35px;
+	margin: 0 auto;
+	background-color: #f5f5f5;
+	font-size: 14px;
+	padding-top: 5px;
+}
+.feiyong{
+	width: 800px;
+	height: 174px;
+	background-color:#f5f5f5;
+	margin-left: 20px;
+}
+.word22{
+	margin-top:15px;
+	font-size: 14px;
+	float: left;
+}
+.word23{
+	margin-top:15px;
+	font-size: 14px;
+	color: red;
+	float: left;
+}
+.word24{
+	margin-left: 20px;
+	margin-top:15px;
+	font-size: 14px;
+	float: left;
+}
+.word25{
+	margin-top:140px;
+	font-size: 14px;
+	color: red;
+	float: left;
+}
+.word26{
+	margin-left: 185px;
+	margin-top:140px;
+	font-size: 14px;
+	float: left;
+}
+
+
 	/*内容结束*/
 
 
@@ -1383,10 +1657,6 @@ input,button{
 
 
      /*尾部开始*/
-}
-}
-}
-}
 
 .redend{
 	width: 100%;
@@ -1508,4 +1778,3 @@ input,button{
 	text-align: center;
 	color: #7d7d7d
 }
-
