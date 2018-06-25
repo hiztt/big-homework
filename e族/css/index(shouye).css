@@ -1239,9 +1239,139 @@ input,button{
 		font-size: 16px;
 }
 
+  
 
 
 
+.shipin{
+	width: 100%;
+	height: 1040px;
+	background: #fbfbfb;
+}
+.qian{
+	display: block;
+	width: 1200px;
+	height: 60px;
+	margin:0 auto;
+	font-size: 14px;
+	line-height: 60px
+}
+.que{
+	width: 1200px;
+	height: 832px;
+	margin:0 auto;
+	margin-top: 30px;
+}
+.zuof{
+	float: left;
+	background: #ffffff;
+}
+.shang{
+	width: 218px;
+	height: 43px;
+	border: 3px solid #fbfbfb;
+	background: url('../img/ezuaixin/banner/images/tu_03.gif')no-repeat 30px center;
+}
+.shang .p2{
+	display: block;
+	line-height: 43px;
+	text-align: center;
+	font-size: 16px;
+}
+.xia {
+	width: 218px;
+	height: 490px;
+	border: 3px solid #fbfbfb;
+}
+.xia .xia1{
+	display: block;
+	font-size: 14px;
+	color: #ff2c18;
+	line-height: 37px;
+	padding-left:74px;
+}
+.xia .xia2{
+	display: block;
+	font-size: 14px;
+	color: #000000;
+	line-height: 37px;
+	padding-left:74px;
+}
+.you{
+	float: left;
+	width: 970px;
+	height: 826px;
+	border: 3px solid #fbfbfb;
+	background: #ffffff;
+}
+.you .you1 {
+	width: 222px;
+	height: 252px;
+	margin-left: 17px;
+	margin-top: 17px;
+	float: left;
+	border: 1.5px solid #f3f3f3;
+	background: url('../img/ezuaixin/banner/images/tu_13.gif')no-repeat center 33px;
+}
+.you .you2{
+	width: 222px;
+	height: 252px;
+	margin-left: 17px;
+	margin-top: 17px;
+	float: left;
+	border: 1.5px solid #f3f3f3;
+	background: url('../img/ezuaixin/banner/images/tu_10.gif')no-repeat center 33px;
+}
+.you .you3{
+	width: 222px;
+	height: 252px;
+	margin-left: 17px;
+	margin-top: 17px;
+	float: left;
+	border: 1.5px solid #f3f3f3;
+	background: url('../img/ezuaixin/banner/images/tu_06.gif')no-repeat center 15px;
+}
+.you .you4{
+	width: 222px;
+	height: 252px;
+	margin-left: 17px;
+	margin-top: 17px;
+	float: left;
+	border: 1.5px solid #f3f3f3;
+	background: url('../img/ezuaixin/banner/images/tu_16.gif')no-repeat center 33px;
+}
+.you .p3{
+	display: block;
+	margin-top: 192px;
+	text-align: center;
+	font-size: 16px;
+	color: #e0e0e0;
+}
+.you .p4{
+	display: block;
+	text-align: center;
+	font-size: 16px;
+}
+.shoumo{
+	width: 400px;
+	height: 46px;
+	margin:0 auto;
+	margin-top: 50px;
+}
+.shoumo1{
+	display: inline-block;
+	width: 57px;
+	height: 31px;
+	margin-left: 22px;
+	border: 1px solid #e0e0e0;
+}
+.shoumo1 p{
+	display: block;
+	line-height: 31px;
+	text-align: center;
+	font-size: 18px;
+	color: #e0e0e0;
+}
 	/*内容结束*/
 
 
@@ -1253,6 +1383,10 @@ input,button{
 
 
      /*尾部开始*/
+}
+}
+}
+}
 
 .redend{
 	width: 100%;
