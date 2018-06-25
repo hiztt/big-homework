@@ -12,14 +12,13 @@ input,button{
 	outline: none;
 }
 
-
-
-/*首部和banner开始*/
+     /*首部和banner开始*/
 
 .head{
+	width: 100%;
 	height: 30px;
 	margin: 0 auto;
-	background-color: #f4f4f4; 
+	background: url(../img/shouye/header/zuishangfangbeijing.png) no-repeat center center; 
 }
 .headmid{
 	width: 1200px;
@@ -56,7 +55,6 @@ input,button{
 	z-index: 1;
 	padding-top: 4px;
 }
-
 .saomiaojiaru li{
 	float: right;
 	color: #333333;
@@ -69,9 +67,10 @@ input,button{
 }
 .saoma{
 	position: relative;
-	z-index: 1
+	z-index: 1;
 }
 .head2{
+	width: 100%;
 	height: 156px;
 	margin: 0 auto;
 	background-color: #ffffff;
@@ -89,7 +88,7 @@ input,button{
 	width: 182px;
 	height: 117px;
 	float: left;
-    background: url(../img/Ezuhuodongxiangqing/img/love.png) no-repeat center center;
+	background: url(../img/shouye/header/youaiyouweilai.png) no-repeat center center;
 }
 .search{
 	width: 500px;
@@ -132,14 +131,15 @@ input,button{
 .erweima1{
 	width: 84px;
 	height: 91px;
+	/*background: url(../img/shouye/header/erweima.png) no-repeat center center;*/
 	margin: 0 auto;
 
 }
+
+
 .saoma a:hover .erweima{
 	display: block;
 }
-
-
 .erweima{
 	position: absolute;
 	z-index: 2;
@@ -149,7 +149,7 @@ input,button{
 	height: 91px;
 	margin-top: 10px;
 	margin-left: -18px;
-	background: url(../img/Ezuhuodongxiangqing/img/erweima.png) no-repeat center center;
+	background: url(../img/shouye/header/erweima.png) no-repeat center center;
 }
 .gouwuche{
 	width: 152px;
@@ -157,7 +157,7 @@ input,button{
 	margin:0 auto;
 	text-align: center;
 	padding-top: 47px; 
-	background: url(../img/Ezuhuodongxiangqing/img/shopping.png) no-repeat center 47%;
+	background: url(../img/shouye/header/gouwuche.png) no-repeat center 47%;
 }
 .gouwuche a{
 	color: #f14e4e;
@@ -176,17 +176,74 @@ input,button{
 	margin-left: 11px;
 }
 .nav{
-	width: 530px;
+	width: 1200px;
 	height: 40px;
 	float: left;
+	position: relative;
+	z-index: 1;
 }
 .nav1{
+	position: relative;
+	z-index: 1;
 	width: 89px;
 	height: 27px;
 	padding-top: 7px;
-	background: url(../img/Ezuhuodongxiangqing/img/redfangkuai.png)no-repeat center center;
+	background: url(../img/shouye/header/shouyedisehongkuai.png)no-repeat center center;
 	margin-right: 36px;
 }
+
+
+.nav1 a:hover .shenghuolist{
+	display: block;
+}
+
+
+.shenghuolist{
+	position: absolute;
+	display: none;
+	float: left;
+	width: 215px;
+	height: 471px;
+	background: url(../img/ezushenghuo/content/liebiao/ezushenghuoxialakuang.png) no-repeat center bottom;
+}
+.listcontent{
+	width: 189px;
+	height: 31px;
+	margin-top:15px;
+	margin-left: 23px;
+}
+.listcontent1-1{
+	width: 189px;
+	height: 31px;
+	margin-top:25px;
+	margin-left: 23px;
+}
+.listcontent img{
+	float: left;
+}
+.listcontent1-1 img{
+	float: left;
+}
+.listcontent2-2{
+	float: left;
+	margin-top:3px;
+	margin-left: 23px;
+}
+.listcontent2{
+	float: left;
+	margin-top:1px;
+	margin-left: 23px;
+}
+.listcontent2 p{
+	color: #ffffff;
+	font-size: 14px;
+}
+.listcontent2-2 p{
+	color: #ffffff;
+	font-size: 14px;
+}
+
+
 .nav1 a{
 	color: #fff;
 	font-size: 16px;
@@ -202,16 +259,19 @@ input,button{
 	font-size: 16px;
 }
 .hongxian{
+	width: 100%;
 	height: 3px;
 	margin:0 auto;
-	background: url(../img/Ezuhuodongxiangqing/img/hongxian.png) no-repeat center center;
+	background: url(../img/shouye/header/dingbuhongsehengxian.png) no-repeat center center;
 }
 .banner{
+	width: 100%;
 	height: 462px;
 	margin:0 auto;
-	background: url(../img/Ezuhuodongxiangqing/img/0-1.png) no-repeat center center;
+	background: url(../img/shouye/banner/diyizhangdatu.png) no-repeat center center;
 }
 .bannerspace{
+	width: 100%;
 	height: 429px;
 	margin: 0 auto;
 }
@@ -222,6 +282,7 @@ input,button{
 }
 .changepicture li{
 	float: left;
+
 }
 .changepicture1{
 	margin-left: 21px;
@@ -231,114 +292,165 @@ input,button{
 	margin-left: 14px;
 	margin-right: 14px;
 }
-
-
-
-
-     /* 首部和banner结束*/
-     /*内容开始*/
-
-
-     
-.content{
-	margin: 0 auto;
-	width: 1200px;
-	height: 1437px;
-}
-.goout{
-	font-family: '微软雅黑';
-	font-size: 14px;
-    margin-top: 40px;
-    margin-bottom: 88px;
-}
-.goout a{
-	color: black;
-}
-.zijiayou{
-	font-family: '微软雅黑'；
-	font-size: 22px;
-	text-align: center;
-	padding-bottom: 41px;
-}
-.bilingpicture{
-    margin: 0 auto;
-    height: 375px;
-	background: url(../img/Ezuhuodongxiangqing/img/1-1.png) no-repeat center center;
-}
-.word{
-	width: 930px;
-	height: 328px;
-    padding-top: 45px;
-    font-family: '微软雅黑';
-    font-size: 18px;
-	line-height: 45px;
-	margin: 0 auto;
-}
-.baoming{
-	width: 565px;
-	height: 372px;
-	margin-left: 131px;
-	font-family: '微软雅黑';
-	font-size: 18px;
+.boxblack{
+	position: absolute;
+	display: none;
+	width: 240px;
+	height: 462px;
 	float: left;
+
+	background-color: black;
 }
-.baoming1{
-	width: 144px;
+.bb1{
+	width: 30px;
+	height: 462px;
 	float: left;
+	padding:22px 0 22px 24px;
 }
-.ul1{
-	line-height: 53px;
-}
-.ul1 li a{
-	color: black;
-}
-.riqi{
-	float: left;
-}
-.dingdong{
-	padding-top: 54px;
-}
-.biaodan{
-    float: left;
-}
-.baoming2{
-	font-size: 18px;
-	margin-top: 10px;
+.bb11{
+	width: 20px;
+	height: 25px;
 	margin-bottom: 20px;
 }
-.shuru input{
-	display: block;
-	width: 345px;
-	height: 30px;
+.bb2{
+	width: 120px;
+	height: 462px;
+	float: left;
+	padding:22px 0 22px 24px;
 }
-.shuru textarea{
-	font-family: '微软雅黑';
-	font-size: 13px;
-	padding-top: 4px;
-	padding-left: 2px;
+.bb22{
+	width: 120px;
+	height: 25px;
+	margin-bottom: 20px;
 }
-.baoming3{
-	width: 130px;
+.bb22 a{
+	color: white;
+}
+     /* 首部和banner结束*/
+
+     /*内容开始*/
+
+.box1{
+	width: 100%;
+	height:60px;
+	background-color: #ffffff;
+}
+.boxp{
+	margin: 0 auto;
+	width: 1200px;
 	height: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.body{
+	width: 100%;
+	height: 1240px;
+	background-color: #ffffff;
+}
+.dabox{
+	width: 1200px;
+	height: 335px;
+	margin: 0 auto;
+	padding-bottom: 38px;
+}
+.xiaobox1{
+	width: 217px;
+	height: 333px;
+	border: 1px solid #dbdbdb;
+	float: left;
+	margin-right: 20px;
+}
+.xiaobox2{
+	width: 217px;
+	height: 333px;
+	border: 1px solid #dbdbdb;
+	float: left;
+
+}
+.boxa{
+	width: 125px;
+	height: 150px;
+	margin: 0 auto;
+	padding-top: 35px;
+}
+
+.boxb{
+	width: 115px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+.boxb p{
+    font-size: 16px;
+	color: #dddddd;
+}
+.boxc{
+	width: 54px;
+	height: 16px;
+	margin: 0 auto;
+	padding-top: 15px;
+}
+.boxc p{
+	font-size: 15px;
+}
+.boxd{
+	width: 100px;
+	height: 30px;
 	background-color: red;
+	border-radius: 2px;
+	margin: 0 auto;
 	margin-top: 20px;
 }
-.baoming3 a{
-	display: block;
-	padding-top: 8px;
-	padding-left: 30px;
-	color: #000000;
+.boxd p{
+	color: white;
+	font-size: 15px;
+	margin: 0 auto;
+	padding: 6px 18px 6px 18px;
 }
+.boxe{
+	width: 160px;
+	height: 143px;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+.boxf{
+	width: 60px;
+	height: 168px;
+	margin: 0 auto;
+	padding-top: 15px;
+}
+.boxg{
+	width: 150px;
+	height: 153px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+.boxo{
+	width: 400px;
+	height: 40px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.box7 li{
+	float: left;
+	
+}
+.box7 ul{
+	margin-top: 20px;
 
-
-  /*尾部开始*/
-
+}
+.box7a a{
+	border:1px solid #b8b8b8;
+	padding: 10px 15px 10px 15px;
+	margin-right: 20px;
+	color: #b8b8b8;
+}
+     /*尾部开始*/
 
 .redend{
 	width: 100%;
 	height: 86px;
 	margin:0 auto;
-	background-color: #f83838;
+	background: url(../img/shouye/bottom/dibuhongsebeijing.png) no-repeat center center;
 }
 .redend1{
 	width: 1200px;
@@ -382,15 +494,15 @@ input,button{
 	margin-top:15px;
 }
 .blackend{
+	width: 100%;
 	height: 248px;
 	margin:0 auto;
-	background-color: #2e2e2e;
+	background: url(../img/shouye/bottom/dibuheisebeijing.png) no-repeat center center;
 }
 .blackend1{
 	width: 1200px;
-	height: 150px;  
+	height: 150px;
 	margin:0 auto;
-	border-bottom: solid 1px #454545;
 }
 .blackend1 li{
 	float: left;
@@ -436,31 +548,22 @@ input,button{
 	margin: 0 auto;
 	padding-top: 26px;
 }
-.ending{
-	width: 610px;
-	height:15px;
+.lastline{
+	width: 1200px;
+	height: 18px;
 	margin: 0 auto;
-	margin-top: 27px;
-	font-family: '微软雅黑';
-	font-size: 14px;
-	color: #989898;
+	text-align: center;
+	color: #7d7d7d
 }
-.ending li{
-	float: left;
-	border-right: solid 1px #a4a4a4;
-	padding-right: 12px;
-	padding-left: 12px;
-	font-size: 14px;
+.lastline a{
+	color: #7d7d7d;
 }
-.ending li:last-child{
-	border: none;
-}
-.ending1{
-	width: 570px;
-	height:16px;
+.lastline1{
+	width: 1200px;
+	height: 16px;
 	margin: 0 auto;
-	margin-top: 27px;
-	font-family: '微软雅黑';
-	font-size: 14px;
-	color: #989898;
+	margin-top: 18px;
+	text-align: center;
+	color: #7d7d7d
 }
+

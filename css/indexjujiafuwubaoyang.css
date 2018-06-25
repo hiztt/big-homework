@@ -49,9 +49,10 @@ input,button{
 	padding-top: 5px; 
 }
 .saomiaojiaru{
-	width: 248px;
+	width: 500px;
 	height: 30px;
 	float: right;
+	z-index: 1;
 	padding-top: 4px;
 }
 .saomiaojiaru li{
@@ -63,6 +64,10 @@ input,button{
 .saomiaojiaru a{
 	color: #333333;
 	font-size: 12px;
+}
+.saoma{
+	position: relative;
+	z-index: 1
 }
 .head2{
 	width: 100%;
@@ -123,12 +128,27 @@ input,button{
 	color: #fff;
 	border: none;
 }
-.erweima{
+.erweima1{
 	width: 84px;
 	height: 91px;
-	background: url(../img/shouye/header/erweima.png) no-repeat center center;
 	margin: 0 auto;
+}
 
+.saoma a:hover .erweima{
+	display: block;
+}
+
+
+.erweima{
+	position: absolute;
+	z-index: 2;
+	display: none;
+	float: right;
+	width: 84px;
+	height: 91px;
+	margin-top: 10px;
+	margin-left: -18px;
+	background: url(../img/shouye/header/erweima.png) no-repeat center center;
 }
 .gouwuche{
 	width: 152px;

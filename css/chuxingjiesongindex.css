@@ -48,9 +48,10 @@ input,button{
 	padding-top: 5px; 
 }
 .saomiaojiaru{
-	width: 248px;
+	width: 500px;
 	height: 30px;
 	float: right;
+	z-index: 1;
 	padding-top: 4px;
 }
 .saomiaojiaru li{
@@ -62,6 +63,10 @@ input,button{
 .saomiaojiaru a{
 	color: #333333;
 	font-size: 12px;
+}
+.saoma{
+	position: relative;
+	z-index: 1;
 }
 .head2{
 	height: 156px;
@@ -121,12 +126,27 @@ input,button{
 	color: #fff;
 	border: none;
 }
-.erweima{
+.erweima1{
 	width: 84px;
 	height: 91px;
-	background: url(../img/chuxingjiesong/img/erweima.png) no-repeat center center;
 	margin: 0 auto;
 
+}
+.saoma a:hover .erweima{
+	display: block;
+}
+
+
+.erweima{
+	position: absolute;
+	z-index: 2;
+	display: none;
+	float: right;
+	width: 84px;
+	height: 91px;
+	margin-top: 10px;
+	margin-left: -18px;
+	background: url(../img/chuxingjiesong/img/erweima.png) no-repeat center center;
 }
 .gouwuche{
 	width: 152px;
@@ -228,6 +248,9 @@ input,button{
     margin-top: 36px;
     margin-bottom: 31px;
 }
+.goout a{
+	color: black;
+}
 .chuxingjiesong{
 	font-family: '微软雅黑';
     font-size: 22px;
@@ -253,11 +276,17 @@ input,button{
 .nine1 li{
 	padding-bottom: 31px;
 }
+.nine1 li a{
+	color: black;
+}
 .first{
     padding-top: 28px;
 }
 .last{
     padding-bottom: 79px;
+}
+.last li a{
+	color: black;
 }
 .riqi{
 	width: 108px;
@@ -279,7 +308,13 @@ input,button{
 .nine3 li{
 	padding-bottom: 31px;
 }
-.color{
+.nine3 li a{
+	color: black;
+}
+.nine4 li{
+	padding-bottom: 31px;
+}
+.color a{
 	color: red;
 }
 .same{
@@ -288,9 +323,13 @@ input,button{
     color: #a1a1a1;
 	font-family: '微软雅黑';
 	font-size: 18px;
+	margin: 0 auto;
+}
+.same ul li a{
+	color: #b0b0b0;
 }
 .shou{
-	margin-left: 500px;
+	margin-left: 425px;
 	margin-right: 20px;
 	border-color: #b8b8b8;
 	border-style: solid;

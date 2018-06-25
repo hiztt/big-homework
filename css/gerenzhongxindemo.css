@@ -49,9 +49,10 @@ input,button{
 	padding-top: 5px; 
 }
 .saomiaojiaru{
-	width: 248px;
+	width: 500px;
 	height: 30px;
 	float: right;
+	z-index: 1;
 	padding-top: 4px;
 }
 .saomiaojiaru li{
@@ -63,6 +64,10 @@ input,button{
 .saomiaojiaru a{
 	color: #333333;
 	font-size: 12px;
+}
+.saoma{
+	position: relative;
+	z-index: 1
 }
 .head2{
 	height: 156px;
@@ -122,12 +127,27 @@ input,button{
 	color: #fff;
 	border: none;
 }
-.erweima{
+.erweima1{
 	width: 84px;
 	height: 91px;
-	background: url(../img/gerenzhongxin/img/erweima.png) no-repeat center center;
 	margin: 0 auto;
 
+}
+.saoma a:hover .erweima{
+	display: block;
+}
+
+
+.erweima{
+	position: absolute;
+	z-index: 2;
+	display: none;
+	float: right;
+	width: 84px;
+	height: 91px;
+	margin-top: 10px;
+	margin-left: -18px;
+	background: url(../img/gerenzhongxin/img/erweima.png) no-repeat center center;
 }
 .gouwuche{
 	width: 152px;
@@ -196,13 +216,16 @@ input,button{
 	margin: 0 auto;
 	width: 1198px;
 	height: 959px;
-	background-color: #fbfbfbfb;
+	background-color: #fbfbfb;
 }
 .first{
 	padding-top: 30px;
 	padding-bottom: 34px;
 	font-family: '微软雅黑';
 	font-size: 14px;
+}
+.first a{
+	color: black;
 }
 .left{
 	width: 196px;
@@ -232,6 +255,9 @@ input,button{
 	padding-left: 44px;
 	background-color: #ffffff;
 }
+.daohang p a{
+	color: black;
+}
 .daohang1{
 	padding-bottom: 27px;
 }
@@ -246,8 +272,16 @@ input,button{
 	padding-top: 17px;
 	padding-bottom: 27px;
 } 
+.daohang11{
+	font-family: '微软雅黑';
+	font-size: 14px;
+	padding-left: 44px;
+	background-color: #ffffff;
+}
 .daohang5{
 	padding-bottom: 27px;
+}
+.daohang5 a{
 	color: red;
 }
 .hongsequyu{
@@ -260,6 +294,9 @@ input,button{
 	font-family: '微软雅黑';
 	font-size: 18px;
 	padding-left: 30px;
+}
+.ziti a{
+	color: #fbfbfb;
 }
 .zhongjian{
 	height: 877px;
@@ -299,6 +336,9 @@ input,button{
 	border-radius: 4px;
 	background-color: #ff3545;
 }
+.fabude1 p a{
+	color: #fbfbfb;
+}
 .fabude2{
 	padding-top: 65px;
 	padding-bottom: 65px;
@@ -312,6 +352,9 @@ input,button{
 	padding-right: 53px;
 	border-radius: 4px;
 	background-color: #ff3545;
+}
+.fabude2 p a{
+	color: #fbfbfb;
 }
 .fabude3{
 	width: 192px;
@@ -327,6 +370,9 @@ input,button{
 	padding-left: 31px;
 	border-radius: 4px;
 	background-color: #ff3545;
+}
+.fabude3 p a{
+	color: #fbfbfb;
 }
 
 
@@ -468,11 +514,3 @@ input,button{
 	font-size: 14px;
 	color: #989898;
 }
-
-
-
-
-
-
-
-
